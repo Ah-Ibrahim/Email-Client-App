@@ -42,4 +42,4 @@ def receive_email(email_user, email_password):
         print(f"Error receiving email: {e}")
 
 
-receive_email("your_email@gmail.com", "receiver_app_password")
+receive_email("receiver@gmail.com", "receiver_app_password")

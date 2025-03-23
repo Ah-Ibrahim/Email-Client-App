@@ -55,7 +55,7 @@ send_email(
 Run `receive_email.py` to fetch last emails:
 
 ```python
-receive_email("your_email@gmail.com", "receiver_app_password")
+receive_email("reciever@gmail.com", "receiver_app_password")
 ```
 
 ## Notes
