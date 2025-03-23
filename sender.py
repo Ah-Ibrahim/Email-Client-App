@@ -28,9 +28,9 @@ def send_email(sender_email, sender_password, recipient_email, subject, body):
 
 
 send_email(
-    "sender@gmail.com",
-    "sender password",
-    "reciever@gmail.com",
-    "Testing Subject",
-    "Hello from Python!",
+    "sender_email@gmail.com",
+    "sender_app_password",
+    "recipient@example.com",
+    "Subject Here",
+    "Email Body Here",
 )
