@@ -38,13 +38,13 @@ Replace the placeholders in the script with your Gmail credentials and recipient
 
 ### Sending Email
 
-Run `send_email.py` with your credentials and recipient details:
+Run `sender.py` with your credentials and recipient details:
 
 ```python
 send_email(
-    "sender_email@gmail.com",
+    "sender@gmail.com",
     "sender_app_password",
-    "recipient@example.com",
+    "receiver@example.com",
     "Subject Here",
     "Email Body Here"
 )
@@ -52,17 +52,17 @@ send_email(
 
 ### Receiving Emails
 
-Run `receive_email.py` to fetch last emails:
+Run `receiver.py` to fetch last emails:
 
 ```python
-receive_email("reciever@gmail.com", "receiver_app_password")
+receive_email("receiver@gmail.com", "receiver_app_password")
 ```
 
 ## Notes
 
 -   This script is configured for **Gmail**. To use another provider, update the **SMTP and IMAP server settings**.
 -   Do not use your personal password. Always use an **App Password** for security.
--   You may need to adjust the `mail.select("INBOX")` line if using another email provider.
+-   You may need to adjust the `mail.select("inbox")` line if using another email provider.
 -   If sent email was not being fetched, go to your gmail and make sure you marked it as unspam.
 
 ## License
